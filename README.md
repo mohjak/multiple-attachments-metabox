@@ -4,6 +4,26 @@ Add multiple attachments metabox to a WordPress post type.
 
 ## Install
 
+### Install Composer
+
+You can download composer from [https://getcomposer.org/download/](https://getcomposer.org/download/).
+
+### Setup your plugin
+
+In your plugin's root folder:
+
+Create `includes/vendor` directories if they are not exist.
+
+add the following to the plugin `composer.json`
+
+```json
+"config": {
+  "vendor-dir": "includes/vendor"
+}
+```
+
+Then require the package
+
 ```shell
 composer require mohjak/multiple-attachments-metabox
 ```
