@@ -1,5 +1,9 @@
 # CHANGE LOG
 
+## 1.0.4
+
+- add .gitignore file
+
 ## 1.0.3
 
 - change php version to >= 5.6.1
