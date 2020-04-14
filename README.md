@@ -33,7 +33,7 @@ composer require mohjak/multiple-attachments-metabox
 ```php
 <?php
 
-require_once('vendor/mohjak/multiple-attachments-meabox/class-multiple-attachments-metabox.php');
+require_once('vendor/mohjak/multiple-attachments-metabox/class-multiple-attachments-metabox.php');
 use Mohjak\WordPress\PostType\Metabox\MultipleAttachmentsMetabox;
 
 function multipleUploads()
@@ -41,7 +41,7 @@ function multipleUploads()
     $attachmentsMetabox = new MultipleAttachmentsMetabox([
         'metaboxPrefix' => 'multiple-attachments', // custom prefix for the metabox
         'screen' => 'post', // Or custom post type name
-        'metaboxTitle' => __('Custom Attachments Metabox', Constants::TEXT_DOMAIN), // the metabox title
+        'metaboxTitle' => __('Custom Attachments Metabox', 'multiple-attachments-metabox'), // the metabox title
         'mediaType' => 'image', // Then image preview will show, otherwise, link to uploaded media
     ]);
 }
