@@ -1,0 +1,14 @@
+{
+  "name": "mohjak/multiple-attachments-meabox",
+  "description": "Add multiple attachments metabox to a WordPress post type.",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Mohammad Jaqmaqji",
+      "email": "mohjak@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {}
+}
